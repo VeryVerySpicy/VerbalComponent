@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/the_path"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="160dp"
+        android:gravity="center"
+        android:text="The Way is Clear"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtSpeechText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/the_path"
+        android:hint="Text output of recorded audio"
+        android:padding="10dp" />
+
+    <ImageButton
+        android:id="@+id/wandBtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/edtSpeechText"
+        android:backgroundTint="#F9F8FA"
+        android:layout_centerHorizontal="true"
+        android:paddingRight="10dp"/>
+
+
+</RelativeLayout>
+
