@@ -13,7 +13,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="160dp"
         android:gravity="center"
-        android:text="The Way is Clear"
+        android:text="Oh no! There are slimes on the road back to the wizard's tower."
         android:textSize="30sp"
         android:textStyle="bold" />
 
